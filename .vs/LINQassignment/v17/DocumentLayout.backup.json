@@ -1,0 +1,150 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\VSProjects\\source\\repos\\LINQassignment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9DFB40F4-43DE-4E59-AFED-150AE5B7B2E7}|LINQassignment\\LINQassignment.csproj|d:\\vsprojects\\source\\repos\\linqassignment\\linqassignment\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9DFB40F4-43DE-4E59-AFED-150AE5B7B2E7}|LINQassignment\\LINQassignment.csproj|solutionrelative:linqassignment\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DFB40F4-43DE-4E59-AFED-150AE5B7B2E7}|LINQassignment\\LINQassignment.csproj|d:\\vsprojects\\source\\repos\\linqassignment\\linqassignment\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DFB40F4-43DE-4E59-AFED-150AE5B7B2E7}|LINQassignment\\LINQassignment.csproj|solutionrelative:linqassignment\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DFB40F4-43DE-4E59-AFED-150AE5B7B2E7}|LINQassignment\\LINQassignment.csproj|d:\\vsprojects\\source\\repos\\linqassignment\\linqassignment\\editor.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DFB40F4-43DE-4E59-AFED-150AE5B7B2E7}|LINQassignment\\LINQassignment.csproj|solutionrelative:linqassignment\\editor.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DFB40F4-43DE-4E59-AFED-150AE5B7B2E7}|LINQassignment\\LINQassignment.csproj|d:\\vsprojects\\source\\repos\\linqassignment\\linqassignment\\editor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9DFB40F4-43DE-4E59-AFED-150AE5B7B2E7}|LINQassignment\\LINQassignment.csproj|solutionrelative:linqassignment\\editor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DFB40F4-43DE-4E59-AFED-150AE5B7B2E7}|LINQassignment\\LINQassignment.csproj|d:\\vsprojects\\source\\repos\\linqassignment\\linqassignment\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DFB40F4-43DE-4E59-AFED-150AE5B7B2E7}|LINQassignment\\LINQassignment.csproj|solutionrelative:linqassignment\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DFB40F4-43DE-4E59-AFED-150AE5B7B2E7}|LINQassignment\\LINQassignment.csproj|d:\\vsprojects\\source\\repos\\linqassignment\\linqassignment\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9DFB40F4-43DE-4E59-AFED-150AE5B7B2E7}|LINQassignment\\LINQassignment.csproj|solutionrelative:linqassignment\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DFB40F4-43DE-4E59-AFED-150AE5B7B2E7}|LINQassignment\\LINQassignment.csproj|d:\\vsprojects\\source\\repos\\linqassignment\\linqassignment\\models\\dat154context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DFB40F4-43DE-4E59-AFED-150AE5B7B2E7}|LINQassignment\\LINQassignment.csproj|solutionrelative:linqassignment\\models\\dat154context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\VSProjects\\source\\repos\\LINQassignment\\LINQassignment\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "LINQassignment\\Models\\Student.cs",
+              "ToolTip": "D:\\VSProjects\\source\\repos\\LINQassignment\\LINQassignment\\Models\\Student.cs",
+              "RelativeToolTip": "LINQassignment\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T09:45:23.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Editor.xaml.cs",
+              "DocumentMoniker": "D:\\VSProjects\\source\\repos\\LINQassignment\\LINQassignment\\Editor.xaml.cs",
+              "RelativeDocumentMoniker": "LINQassignment\\Editor.xaml.cs",
+              "ToolTip": "D:\\VSProjects\\source\\repos\\LINQassignment\\LINQassignment\\Editor.xaml.cs",
+              "RelativeToolTip": "LINQassignment\\Editor.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAWwFEAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T09:25:53.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Editor.xaml",
+              "DocumentMoniker": "D:\\VSProjects\\source\\repos\\LINQassignment\\LINQassignment\\Editor.xaml",
+              "RelativeDocumentMoniker": "LINQassignment\\Editor.xaml",
+              "ToolTip": "D:\\VSProjects\\source\\repos\\LINQassignment\\LINQassignment\\Editor.xaml",
+              "RelativeToolTip": "LINQassignment\\Editor.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-31T09:22:39.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\VSProjects\\source\\repos\\LINQassignment\\LINQassignment\\App.xaml",
+              "RelativeDocumentMoniker": "LINQassignment\\App.xaml",
+              "ToolTip": "D:\\VSProjects\\source\\repos\\LINQassignment\\LINQassignment\\App.xaml",
+              "RelativeToolTip": "LINQassignment\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-31T08:55:32.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dat154Context.cs",
+              "DocumentMoniker": "D:\\VSProjects\\source\\repos\\LINQassignment\\LINQassignment\\Models\\Dat154Context.cs",
+              "RelativeDocumentMoniker": "LINQassignment\\Models\\Dat154Context.cs",
+              "ToolTip": "D:\\VSProjects\\source\\repos\\LINQassignment\\LINQassignment\\Models\\Dat154Context.cs",
+              "RelativeToolTip": "LINQassignment\\Models\\Dat154Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T08:36:26.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\VSProjects\\source\\repos\\LINQassignment\\LINQassignment\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "LINQassignment\\MainWindow.xaml",
+              "ToolTip": "D:\\VSProjects\\source\\repos\\LINQassignment\\LINQassignment\\MainWindow.xaml",
+              "RelativeToolTip": "LINQassignment\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-31T08:29:00.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\VSProjects\\source\\repos\\LINQassignment\\LINQassignment\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "LINQassignment\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\VSProjects\\source\\repos\\LINQassignment\\LINQassignment\\MainWindow.xaml.cs",
+              "RelativeToolTip": "LINQassignment\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T08:28:56.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
