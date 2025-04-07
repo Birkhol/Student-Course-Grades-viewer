@@ -8,14 +8,21 @@
         Title="Editor" Height="450" Width="800">
     <Grid>
         <Label x:Name="Id" Content="Id" HorizontalAlignment="Left" Margin="10,28,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="Name" Content="Name" HorizontalAlignment="Left" Margin="149,28,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="Age" Content="Age" HorizontalAlignment="Left" Margin="330,28,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Name" Content="Name" HorizontalAlignment="Left" Margin="116,28,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Age" Content="Age" HorizontalAlignment="Left" Margin="264,28,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Coursecode" Content="Coursecode" HorizontalAlignment="Left" Margin="366,28,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Grade" Content="Grade" HorizontalAlignment="Left" Margin="524,28,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="sid" HorizontalAlignment="Left" Margin="10,70,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="72"/>
-        <TextBox x:Name="sname" HorizontalAlignment="Left" Margin="149,70,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="sage" HorizontalAlignment="Left" Margin="330,70,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="addStudent" Content="Add" HorizontalAlignment="Left" Margin="10,132,0,0" VerticalAlignment="Top" Click="addStudent_Click" RenderTransformOrigin="0.519,0.541"/>
-        <Button x:Name="delStudent" Content="Delete" HorizontalAlignment="Left" Margin="97,132,0,0" VerticalAlignment="Top" Click="delStudent_Click"/>
-        <Button x:Name="updateStudent" Content="Update" HorizontalAlignment="Left" Margin="209,132,0,0" VerticalAlignment="Top" Click="updateStudent_Click" />
+        <TextBox x:Name="sname" HorizontalAlignment="Left" Margin="116,70,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="sage" HorizontalAlignment="Left" Margin="264,70,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="70"/>
+        <TextBox x:Name="code" HorizontalAlignment="Left" Margin="366,70,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="grade" HorizontalAlignment="Left" Margin="524,70,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="69"/>
+        <Button x:Name="addStudent" Content="Add" HorizontalAlignment="Left" Margin="10,132,0,0" VerticalAlignment="Top" Click="addStudent_Click" RenderTransformOrigin="0.519,0.541" Height="38" Width="50"/>
+        <Button x:Name="delStudent" Content="Delete" HorizontalAlignment="Left" Margin="76,132,0,0" VerticalAlignment="Top" Click="delStudent_Click" Height="38" Width="61"/>
+        <Button x:Name="updateStudent" Content="Update" HorizontalAlignment="Left" Margin="148,132,0,0" VerticalAlignment="Top" Click="updateStudent_Click" Height="38" Width="56" />
+        
+
+
 
     </Grid>
 </Window>

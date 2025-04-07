@@ -11,18 +11,24 @@
             <TextBox Name="Search" HorizontalAlignment="Left" Text="" Margin="10,0,0,0" Width="200"/>
             <Button Name="searchButton" Content="Search" Margin="5,0,0,0" Click="searchButton_Click"/>
             <Button Name="EditButton" Content="Editor" Click="EditButton_Click_1"/>
+            <Button Name="failedButton" Content="View Failed" Click="failedButton_Click"/>
+            <ComboBox Name="CourseDropdown" Width="150" Margin="10,0,0,0" SelectionChanged="CourseDropdown_SelectionChanged"/>
+            <ComboBox Name="GradeDropdown" Width="100" Margin="10,0,0,0" SelectionChanged="GradeDropdown_SelectionChanged"/>
         </StackPanel>
         <ListView Name="studentList" ItemsSource="{Binding}" Margin="0,30,0,0" MouseDoubleClick="studentList_MouseDoubleClick">
-                <ListView.View>
-                    <GridView>
-                        <GridView.Columns>
-                            <GridViewColumn DisplayMemberBinding="{Binding Path=Studentname}" Header="Name" Width="200" />
-                            <GridViewColumn DisplayMemberBinding="{Binding Path=Studentage}" Header="Age" Width="100" />
-                            <GridViewColumn DisplayMemberBinding="{Binding Path=Id}" Header="Id" Width="100" />
-                            <GridViewColumn DisplayMemberBinding="{Binding Path=Course}" Header="Course" Width="100" />
+            <ListView.View>
+                <GridView>
+                    <GridView.Columns>
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=Studentname}" Header="Name" Width="200" />
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=Studentage}" Header="Age" Width="100" />
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=Id}" Header="Id" Width="100" />
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=Coursecode}" Header="Coursecode" Width="100" />
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=Grades}" Header="Grades" Width="100" />
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=Coursename}" Header="Coursename" Width="100" />
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=Teacher}" Header="Teacher" Width="100" />
                     </GridView.Columns>
-                    </GridView>
-                </ListView.View>
-            </ListView>
+                </GridView>
+            </ListView.View>
+        </ListView>
     </Grid>
 </Window>

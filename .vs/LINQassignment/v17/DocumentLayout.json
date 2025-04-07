@@ -3,16 +3,22 @@
   "WorkspaceRootPath": "D:\\VSProjects\\source\\repos\\LINQassignment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9DFB40F4-43DE-4E59-AFED-150AE5B7B2E7}|LINQassignment\\LINQassignment.csproj|d:\\vsprojects\\source\\repos\\linqassignment\\linqassignment\\models\\dat154context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DFB40F4-43DE-4E59-AFED-150AE5B7B2E7}|LINQassignment\\LINQassignment.csproj|solutionrelative:linqassignment\\models\\dat154context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9DFB40F4-43DE-4E59-AFED-150AE5B7B2E7}|LINQassignment\\LINQassignment.csproj|d:\\vsprojects\\source\\repos\\linqassignment\\linqassignment\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DFB40F4-43DE-4E59-AFED-150AE5B7B2E7}|LINQassignment\\LINQassignment.csproj|solutionrelative:linqassignment\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9DFB40F4-43DE-4E59-AFED-150AE5B7B2E7}|LINQassignment\\LINQassignment.csproj|d:\\vsprojects\\source\\repos\\linqassignment\\linqassignment\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{9DFB40F4-43DE-4E59-AFED-150AE5B7B2E7}|LINQassignment\\LINQassignment.csproj|solutionrelative:linqassignment\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DFB40F4-43DE-4E59-AFED-150AE5B7B2E7}|LINQassignment\\LINQassignment.csproj|d:\\vsprojects\\source\\repos\\linqassignment\\linqassignment\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DFB40F4-43DE-4E59-AFED-150AE5B7B2E7}|LINQassignment\\LINQassignment.csproj|solutionrelative:linqassignment\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9DFB40F4-43DE-4E59-AFED-150AE5B7B2E7}|LINQassignment\\LINQassignment.csproj|d:\\vsprojects\\source\\repos\\linqassignment\\linqassignment\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DFB40F4-43DE-4E59-AFED-150AE5B7B2E7}|LINQassignment\\LINQassignment.csproj|solutionrelative:linqassignment\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/dat154.hvl.no_1443/dat154/dat154_rw/SqlTable/dbo.grade.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/dat154.hvl.no_1443/dat154/dat154_rw/SqlTable/dbo.course.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9DFB40F4-43DE-4E59-AFED-150AE5B7B2E7}|LINQassignment\\LINQassignment.csproj|d:\\vsprojects\\source\\repos\\linqassignment\\linqassignment\\editor.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,8 +29,11 @@
       "RelativeMoniker": "D:0:0:{9DFB40F4-43DE-4E59-AFED-150AE5B7B2E7}|LINQassignment\\LINQassignment.csproj|solutionrelative:linqassignment\\editor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DFB40F4-43DE-4E59-AFED-150AE5B7B2E7}|LINQassignment\\LINQassignment.csproj|d:\\vsprojects\\source\\repos\\linqassignment\\linqassignment\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DFB40F4-43DE-4E59-AFED-150AE5B7B2E7}|LINQassignment\\LINQassignment.csproj|solutionrelative:linqassignment\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9DFB40F4-43DE-4E59-AFED-150AE5B7B2E7}|LINQassignment\\LINQassignment.csproj|d:\\vsprojects\\source\\repos\\linqassignment\\linqassignment\\models\\dat154context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DFB40F4-43DE-4E59-AFED-150AE5B7B2E7}|LINQassignment\\LINQassignment.csproj|solutionrelative:linqassignment\\models\\dat154context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/dat154.hvl.no_1443/dat154/dat154_rw/SqlTable/dbo.student.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9DFB40F4-43DE-4E59-AFED-150AE5B7B2E7}|LINQassignment\\LINQassignment.csproj|d:\\vsprojects\\source\\repos\\linqassignment\\linqassignment\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -38,8 +47,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\VSProjects\\source\\repos\\LINQassignment\\LINQassignment\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "LINQassignment\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\VSProjects\\source\\repos\\LINQassignment\\LINQassignment\\MainWindow.xaml.cs",
+              "RelativeToolTip": "LINQassignment\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAQwJoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T11:57:43.994Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -54,64 +76,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
+              "Title": "dbo.grade.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/dat154.hvl.no_1443/dat154/dat154_rw/SqlTable/dbo.grade.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/dat154.hvl.no_1443/dat154/dat154_rw/SqlTable/dbo.grade.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-04-07T10:21:00.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "dbo.course.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/dat154.hvl.no_1443/dat154/dat154_rw/SqlTable/dbo.course.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/dat154.hvl.no_1443/dat154/dat154_rw/SqlTable/dbo.course.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-04-07T10:20:39.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Student.cs",
               "DocumentMoniker": "D:\\VSProjects\\source\\repos\\LINQassignment\\LINQassignment\\Models\\Student.cs",
               "RelativeDocumentMoniker": "LINQassignment\\Models\\Student.cs",
               "ToolTip": "D:\\VSProjects\\source\\repos\\LINQassignment\\LINQassignment\\Models\\Student.cs",
               "RelativeToolTip": "LINQassignment\\Models\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T09:45:23.523Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Editor.xaml.cs",
-              "DocumentMoniker": "D:\\VSProjects\\source\\repos\\LINQassignment\\LINQassignment\\Editor.xaml.cs",
-              "RelativeDocumentMoniker": "LINQassignment\\Editor.xaml.cs",
-              "ToolTip": "D:\\VSProjects\\source\\repos\\LINQassignment\\LINQassignment\\Editor.xaml.cs",
-              "RelativeToolTip": "LINQassignment\\Editor.xaml.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAWwFEAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T09:25:53.184Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Editor.xaml",
-              "DocumentMoniker": "D:\\VSProjects\\source\\repos\\LINQassignment\\LINQassignment\\Editor.xaml",
-              "RelativeDocumentMoniker": "LINQassignment\\Editor.xaml",
-              "ToolTip": "D:\\VSProjects\\source\\repos\\LINQassignment\\LINQassignment\\Editor.xaml",
-              "RelativeToolTip": "LINQassignment\\Editor.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-31T09:22:39.216Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "App.xaml",
-              "DocumentMoniker": "D:\\VSProjects\\source\\repos\\LINQassignment\\LINQassignment\\App.xaml",
-              "RelativeDocumentMoniker": "LINQassignment\\App.xaml",
-              "ToolTip": "D:\\VSProjects\\source\\repos\\LINQassignment\\LINQassignment\\App.xaml",
-              "RelativeToolTip": "LINQassignment\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-31T08:55:32.815Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Dat154Context.cs",
-              "DocumentMoniker": "D:\\VSProjects\\source\\repos\\LINQassignment\\LINQassignment\\Models\\Dat154Context.cs",
-              "RelativeDocumentMoniker": "LINQassignment\\Models\\Dat154Context.cs",
-              "ToolTip": "D:\\VSProjects\\source\\repos\\LINQassignment\\LINQassignment\\Models\\Dat154Context.cs",
-              "RelativeToolTip": "LINQassignment\\Models\\Dat154Context.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T08:36:26.839Z",
+              "WhenOpened": "2025-03-31T09:45:23.523Z",
               "EditorCaption": ""
             },
             {
@@ -128,15 +119,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\VSProjects\\source\\repos\\LINQassignment\\LINQassignment\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "LINQassignment\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\VSProjects\\source\\repos\\LINQassignment\\LINQassignment\\MainWindow.xaml.cs",
-              "RelativeToolTip": "LINQassignment\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAADkAAAA8AAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "Dat154Context.cs",
+              "DocumentMoniker": "D:\\VSProjects\\source\\repos\\LINQassignment\\LINQassignment\\Models\\Dat154Context.cs",
+              "RelativeDocumentMoniker": "LINQassignment\\Models\\Dat154Context.cs",
+              "ToolTip": "D:\\VSProjects\\source\\repos\\LINQassignment\\LINQassignment\\Models\\Dat154Context.cs",
+              "RelativeToolTip": "LINQassignment\\Models\\Dat154Context.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAIwFEAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T08:28:56.494Z",
+              "WhenOpened": "2025-03-31T08:36:26.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Editor.xaml.cs",
+              "DocumentMoniker": "D:\\VSProjects\\source\\repos\\LINQassignment\\LINQassignment\\Editor.xaml.cs",
+              "RelativeDocumentMoniker": "LINQassignment\\Editor.xaml.cs",
+              "ToolTip": "D:\\VSProjects\\source\\repos\\LINQassignment\\LINQassignment\\Editor.xaml.cs",
+              "RelativeToolTip": "LINQassignment\\Editor.xaml.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAcwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T09:25:53.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Editor.xaml",
+              "DocumentMoniker": "D:\\VSProjects\\source\\repos\\LINQassignment\\LINQassignment\\Editor.xaml",
+              "RelativeDocumentMoniker": "LINQassignment\\Editor.xaml",
+              "ToolTip": "D:\\VSProjects\\source\\repos\\LINQassignment\\LINQassignment\\Editor.xaml",
+              "RelativeToolTip": "LINQassignment\\Editor.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-31T09:22:39.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "dbo.student.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/dat154.hvl.no_1443/dat154/dat154_rw/SqlTable/dbo.student.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/dat154.hvl.no_1443/dat154/dat154_rw/SqlTable/dbo.student.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-04-07T10:21:17.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\VSProjects\\source\\repos\\LINQassignment\\LINQassignment\\App.xaml",
+              "RelativeDocumentMoniker": "LINQassignment\\App.xaml",
+              "ToolTip": "D:\\VSProjects\\source\\repos\\LINQassignment\\LINQassignment\\App.xaml",
+              "RelativeToolTip": "LINQassignment\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-31T08:55:32.815Z",
               "EditorCaption": ""
             },
             {
