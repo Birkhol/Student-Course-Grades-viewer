@@ -5,24 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LINQassignment"
         mc:Ignorable="d"
-        Title="Editor" Height="450" Width="800">
+        Title="Student Editor" Height="450" Width="800">
     <Grid>
-        <Label x:Name="Id" Content="Id" HorizontalAlignment="Left" Margin="10,28,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="Name" Content="Name" HorizontalAlignment="Left" Margin="116,28,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="Age" Content="Age" HorizontalAlignment="Left" Margin="264,28,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="Coursecode" Content="Coursecode" HorizontalAlignment="Left" Margin="366,28,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="Grade" Content="Grade" HorizontalAlignment="Left" Margin="524,28,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="sid" HorizontalAlignment="Left" Margin="10,70,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="72"/>
-        <TextBox x:Name="sname" HorizontalAlignment="Left" Margin="116,70,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="sage" HorizontalAlignment="Left" Margin="264,70,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="70"/>
-        <TextBox x:Name="code" HorizontalAlignment="Left" Margin="366,70,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="grade" HorizontalAlignment="Left" Margin="524,70,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="69"/>
-        <Button x:Name="addStudent" Content="Add" HorizontalAlignment="Left" Margin="10,132,0,0" VerticalAlignment="Top" Click="addStudent_Click" RenderTransformOrigin="0.519,0.541" Height="38" Width="50"/>
-        <Button x:Name="delStudent" Content="Delete" HorizontalAlignment="Left" Margin="76,132,0,0" VerticalAlignment="Top" Click="delStudent_Click" Height="38" Width="61"/>
-        <Button x:Name="updateStudent" Content="Update" HorizontalAlignment="Left" Margin="148,132,0,0" VerticalAlignment="Top" Click="updateStudent_Click" Height="38" Width="56" />
-        
+        <Label Content="ID:" HorizontalAlignment="Left" Margin="10,28,0,0" VerticalAlignment="Top"/>
+        <Label Content="Name:" HorizontalAlignment="Left" Margin="116,28,0,0" VerticalAlignment="Top"/>
+        <Label Content="Age:" HorizontalAlignment="Left" Margin="264,28,0,0" VerticalAlignment="Top"/>
+        <Label Content="Course:" HorizontalAlignment="Left" Margin="366,28,0,0" VerticalAlignment="Top"/>
+        <Label Content="Grade:" HorizontalAlignment="Left" Margin="524,28,0,0" VerticalAlignment="Top"/>
 
+        <TextBox x:Name="sid" HorizontalAlignment="Left" Margin="10,70,0,0" VerticalAlignment="Top" Width="72"/>
+        <TextBox x:Name="sname" HorizontalAlignment="Left" Margin="116,70,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="sage" HorizontalAlignment="Left" Margin="264,70,0,0" VerticalAlignment="Top" Width="70"/>
+        <ComboBox x:Name="CourseComboBox" HorizontalAlignment="Left" Margin="366,70,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="GradeComboBox" HorizontalAlignment="Left" Margin="524,70,0,0" VerticalAlignment="Top" Width="69"/>
 
-
+        <StackPanel Orientation="Horizontal" Margin="10,132,0,0" VerticalAlignment="Top">
+            <Button x:Name="addStudent" Content="Add" Width="60" Height="38" Click="addStudent_Click"/>
+            <Button x:Name="delStudent" Content="Delete" Margin="5,0,0,0" Width="60" Height="38" Click="delStudent_Click"/>
+            <Button x:Name="updateStudent" Content="Update" Margin="5,0,0,0" Width="60" Height="38" Click="updateStudent_Click"/>
+        </StackPanel>
     </Grid>
 </Window>

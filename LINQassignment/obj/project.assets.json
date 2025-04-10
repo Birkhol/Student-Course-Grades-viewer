@@ -4734,23 +4734,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sande\\.nuget\\packages\\": {},
-    "D:\\Microsoft Visual Studio Shared\\NuGetPackages": {}
+    "C:\\Users\\bohom\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VSProjects\\source\\repos\\LINQassignment\\LINQassignment\\LINQassignment.csproj",
+      "projectUniqueName": "C:\\Users\\bohom\\Desktop\\DAT154\\Student-Course-Grades-viewer\\LINQassignment\\LINQassignment.csproj",
       "projectName": "LINQassignment",
-      "projectPath": "D:\\VSProjects\\source\\repos\\LINQassignment\\LINQassignment\\LINQassignment.csproj",
-      "packagesPath": "C:\\Users\\sande\\.nuget\\packages\\",
-      "outputPath": "D:\\VSProjects\\source\\repos\\LINQassignment\\LINQassignment\\obj\\",
+      "projectPath": "C:\\Users\\bohom\\Desktop\\DAT154\\Student-Course-Grades-viewer\\LINQassignment\\LINQassignment.csproj",
+      "packagesPath": "C:\\Users\\bohom\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bohom\\Desktop\\DAT154\\Student-Course-Grades-viewer\\LINQassignment\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Microsoft Visual Studio Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\sande\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bohom\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

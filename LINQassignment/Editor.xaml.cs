@@ -1,5 +1,6 @@
 ﻿using Azure;
 using LINQassignment.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,45 +28,121 @@ namespace LINQassignment
         public Editor()
         {
             InitializeComponent();
+            Loaded += Editor_Loaded;
         }
 
-        public Editor(Student s)
+        public Editor(Student s) : this()
         {
-            InitializeComponent();
             sname.Text = s.Studentname;
             sid.Text = s.Id.ToString();
             sage.Text = s.Studentage.ToString();
         }
+        private void Editor_Loaded(object sender, RoutedEventArgs e)
+        {
+            // Load data when window is fully initialized
+            LoadCoursesAndGrades();
+        }
+        private void LoadCoursesAndGrades()
+        {
+            if (dx == null) return;
+            dx.Courses.Load();
+            CourseComboBox.ItemsSource = dx.Courses
+                .OrderBy(c => c.Coursecode)
+                .Select(c => c.Coursecode)
+                .ToList();
 
-        private void addStudent_Click(object sender, RoutedEventArgs e) {
-                
-            Student s = new()
+            GradeComboBox.ItemsSource = new[] { "A", "B", "C", "D", "E", "F" };
+        }
+
+   
+
+        private bool ValidateStudentId(out int studentId)
+        {
+            studentId = 0;
+            if (!int.TryParse(sid.Text, out studentId))
             {
-                Studentname = sname.Text,
-                Studentage = int.Parse(sage.Text),
-                Id = int.Parse(sid.Text)
-            };
+                MessageBox.Show("Invalid Student ID");
+                return false;
+            }
+            return true;
+        }
 
-            dx.Students.Add(s);
-            dx.SaveChanges();
+        private void addStudent_Click(object sender, RoutedEventArgs e)
+        {
+            if (!int.TryParse(sid.Text, out int studentId))
+            {
+                MessageBox.Show("Invalid Student ID");
+                return;
+            }
 
+            // Check if ID exists in database
+            if (dx.Students.Any(s => s.Id == studentId))
+            {
+                MessageBox.Show("Student ID already exists in database");
+                return;
+            }
 
-        
+            // Check if ID is being tracked locally
+            var existingStudent = dx.Students.Local.FirstOrDefault(s => s.Id == studentId);
+            if (existingStudent != null)
+            {
+                dx.Entry(existingStudent).State = EntityState.Detached;
+            }
+
+            try
+            {
+                Student s = new()
+                {
+                    Id = studentId,
+                    Studentname = sname.Text,
+                    Studentage = int.Parse(sage.Text)
+                };
+
+                dx.Students.Add(s);
+                dx.SaveChanges();
+                MessageBox.Show("Student added successfully");
+            }
+            catch (DbUpdateException ex)
+            {
+                MessageBox.Show($"Error adding student: {ex.InnerException?.Message}");
+            }
         }
 
         private void delStudent_Click(object sender, RoutedEventArgs e)
         {
-            int id = int.Parse(sid.Text);
-
-            Student s = dx.Students.Where(x => x.Id == id).First();
-
-            if (s != null)
+            if (!int.TryParse(sid.Text, out int id))
             {
-                dx.Students.Remove(s);
-                dx.SaveChanges();
+                MessageBox.Show("Invalid Student ID");
+                return;
             }
 
-            sname.Text = sage.Text = sid.Text = "";
+            var student = dx.Students
+                .Include(s => s.Grades)  // Important: Include the grades
+                .FirstOrDefault(s => s.Id == id);
+
+            if (student != null)
+            {
+                // First remove all grades for this student
+                dx.Grades.RemoveRange(student.Grades);
+
+                // Then remove the student
+                dx.Students.Remove(student);
+
+                try
+                {
+                    dx.SaveChanges();
+                    MessageBox.Show("Student and associated grades deleted successfully");
+                    sname.Text = sage.Text = sid.Text = "";
+                }
+                catch (DbUpdateException ex)
+                {
+                    MessageBox.Show($"Error deleting student: {ex.InnerException?.Message}");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Student not found");
+            }
         }
 
 
